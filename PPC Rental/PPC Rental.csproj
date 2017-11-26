@@ -160,7 +160,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PostProjectController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\ViewDetailProjectController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -213,6 +215,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\About us\landing-page.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
@@ -222,11 +225,16 @@
     <Content Include="Content\Icon\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Icon\jquery.min.js" />
     <Content Include="Content\jquery.min.js" />
+    <Content Include="Content\Login\style.css" />
     <Content Include="Content\myStyle.css" />
+    <Content Include="Content\Register\css\font-awesome.min.css" />
+    <Content Include="Content\Register\css\style.css" />
+    <Content Include="Content\Register\fonts\fontawesome-webfont.svg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\About us.jpg" />
     <Content Include="Images\bg-footer.png" />
     <Content Include="Images\EWMLogoHome.png" />
     <Content Include="Images\Img1.jpg" />
@@ -245,6 +253,7 @@
     <Content Include="Images\Item\PIS_7389-Edit-stamp.jpg" />
     <Content Include="Images\Item\PIS_7432-Edit-stamp.jpg" />
     <Content Include="Images\Item\sunshine-benthanh-cityhome-10-stamp.jpg" />
+    <Content Include="Images\LoginBG.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\Logo_Place.png" />
     <Content Include="Images\main.jpg" />
@@ -306,6 +315,11 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="Content\Register\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\Register\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\Register\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\Register\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\Register\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -334,6 +348,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\ViewDetailProject\ViewDetailProject.cshtml" />
     <Content Include="Views\Shared\_ViewDetailLayout.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Register\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

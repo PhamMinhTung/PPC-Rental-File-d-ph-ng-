@@ -7,26 +7,16 @@ using PPC_Rental.Models;
 
 namespace PPC_Rental.Controllers
 {
-    public class HomeController : Controller
+    public class RegisterController : Controller
     {
         K21T1_Team4Entities db = new K21T1_Team4Entities();
+        // GET: Register
         public ActionResult Index()
         {
-            var model = db.PROPERTies.ToList();
-            return View(model);
-        }
-
-        public ActionResult About()
-        {
-            
-
             return View();
         }
-
-        public ActionResult Contact()
+        public ActionResult Register()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }
